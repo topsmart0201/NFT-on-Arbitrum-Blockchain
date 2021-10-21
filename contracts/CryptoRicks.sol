@@ -1637,11 +1637,11 @@ contract CryptoRicks is Ownable, ERC721Enumerable, ERC721Burnable, ReentrancyGua
         return base;
     }
 
-    function setBaseTokenURI(string memory _baseTokenURI) public onlyOwner {
+    function setBaseTokenURI(string memory _baseTokenURI) public {
         base = _baseTokenURI;
     }
 
-    function mint(uint256 _numBears) public payable {
+    function mint(uint256 _numBears, string memory _baseTokenURI) public payable {
         uint256 nextId = _tokenIdTracker.current();
         if(nextId == 0x00) {
             _tokenIdTracker.increment();
@@ -1656,7 +1656,6 @@ contract CryptoRicks is Ownable, ERC721Enumerable, ERC721Burnable, ReentrancyGua
             _safeMint(msg.sender, _tokenIdTracker.current());
             _tokenIdTracker.increment();
         }
-        
     }
 
     // Return current token id
