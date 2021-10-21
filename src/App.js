@@ -2,7 +2,6 @@ import './styles/App.css';
 
 import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
-import * as IPFS from 'ipfs'
 import ReactSlider from "react-slider";
 import myCryptoRicks from './utils/CryptoRicks.json';
 import { css } from "@emotion/react";
