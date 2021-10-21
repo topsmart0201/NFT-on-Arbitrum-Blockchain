@@ -95,8 +95,8 @@ p, h1, button {
 }
 
 .background {
-  filter: blur(4px);
-  -webkit-filter: blur(4px);
+  /* filter: blur(4px);
+  -webkit-filter: blur(4px); */
   background-size: cover;
   background-position: center;
 }
