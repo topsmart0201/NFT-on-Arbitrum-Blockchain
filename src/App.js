@@ -323,7 +323,7 @@ const App = () => {
               <footer className="footer">
                   <h1 style={{marginTop: "10px"}}>Crypto Ricks © 2021</h1>
                   <p>Smart Contract Address: <a
-                          href="https://arbiscan.io/address/0x53930807383be7139e1da1a758370cd64469ee43">0x53930807383Be7139E1DA1A758370cd64469Ee43</a>
+                          href="https://arbiscan.io/address/0x53930807383be7139e1da1a758370cd64469ee43">0x8B058fd75d64fB0Fec8395A4ad50f28291BfEbe3</a>
                   </p>
                   <div className="socials"><a href="https://twitter.com/YAYBEAR"><span><svg stroke="currentColor"
                                   fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" height="1em" width="1em"
