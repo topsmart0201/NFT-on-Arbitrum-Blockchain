@@ -126,9 +126,6 @@ const App = () => {
 
       let owner = await connectedContract.owner();
 
-      console.log("auth", auth)
-      console.log("owner", owner)
-
       if(owner.toLowerCase() === auth.toLowerCase()) {
         setShowWithdraw(true);
       }
