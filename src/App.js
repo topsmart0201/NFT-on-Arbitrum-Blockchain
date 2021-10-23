@@ -26,7 +26,7 @@ const override = css`
   border: 3px dashed;
 `;
 
-const CONTRACT_ADDRESS = "0x96fc6c5261E4AF65f93f45277f004e26b7cb42a1";
+const CONTRACT_ADDRESS = "0xFc2c697783361cCdd11a16642264c3d116C49763";
 const METADATA_BASE_TOKENURI = "https://gateway.pinata.cloud/ipfs/QmWqiQCrcA2zGasYXPjC3XJVChNeUGdapC1k61qmdk146d/";
 
 const App = () => {
@@ -332,7 +332,7 @@ const App = () => {
               <footer className="footer">
                   <h1 style={{marginTop: "10px"}}>Crypto Ricks © 2021</h1>
                   <p>Smart Contract Address: <a
-                          href="https://arbiscan.io/address/0x96fc6c5261E4AF65f93f45277f004e26b7cb42a1">0x96fc6c5261E4AF65f93f45277f004e26b7cb42a1</a>
+                          href="https://arbiscan.io/address/0xFc2c697783361cCdd11a16642264c3d116C49763">0xFc2c697783361cCdd11a16642264c3d116C49763</a>
                   </p>
                   <div className="socials"><a href="https://twitter.com/CryptoRicksNFT"><span><svg stroke="currentColor"
                                   fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" height="1em" width="1em"
