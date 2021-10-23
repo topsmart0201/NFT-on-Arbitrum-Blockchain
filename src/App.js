@@ -257,7 +257,7 @@ const App = () => {
                       <div className="section-top row">
                           <div className="section-top-left col-md-6 col-12">
                               <h1 className="neonText">Crypto Ricks</h1>
-                              <p>10k Rick NFTs on Arbitrum. With extra Drip.</p>
+                              <p>10k Rick NFTs on Arbitrum.</p>
                           </div>
                           <div className="section-top-right col-md-6 col-12"><img className="img-fluid" src="bears3.gif" style={{margin: "auto"}} />
                           </div>
