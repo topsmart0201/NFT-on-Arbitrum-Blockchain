@@ -332,7 +332,7 @@ const App = () => {
               <footer className="footer">
                   <h1 style={{marginTop: "10px"}}>Crypto Ricks © 2021</h1>
                   <p>Smart Contract Address: <a
-                          href="https://arbiscan.io/address/0x53930807383be7139e1da1a758370cd64469ee43">0x96fc6c5261E4AF65f93f45277f004e26b7cb42a1</a>
+                          href="https://arbiscan.io/address/0x96fc6c5261E4AF65f93f45277f004e26b7cb42a1">0x96fc6c5261E4AF65f93f45277f004e26b7cb42a1</a>
                   </p>
                   <div className="socials"><a href="https://twitter.com/CryptoRicksNFT"><span><svg stroke="currentColor"
                                   fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" height="1em" width="1em"
