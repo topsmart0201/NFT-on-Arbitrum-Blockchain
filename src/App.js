@@ -154,10 +154,9 @@ const App = () => {
       let chainId = await ethereum.request({ method: 'eth_chainId' });
       console.log("Connected to chain " + chainId);
     
-      // String, hex code of the chainId of the Rinkebey test network
-      const rinkebyChainId = "0x66eeb"; //"0x4" => rinkebey test net
+      const rinkebyChainId = "0xA4B1"; //"0x66eeb" => arbitrum test net
       if (chainId !== rinkebyChainId) {
-        alert("You are not connected to the Arbitrum Test Network!");
+        alert("You are not connected to the Arbitrum Network!");
       }
     } catch (error) {
       console.log(error)
@@ -258,7 +257,7 @@ const App = () => {
                       <div className="section-top row">
                           <div className="section-top-left col-md-6 col-12">
                               <h1 className="neonText">Crypto Ricks</h1>
-                              <p>8,085 Bear NFTs on Arbitrum. With extra Drip.</p>
+                              <p>10k Rick NFTs on Arbitrum. With extra Drip.</p>
                           </div>
                           <div className="section-top-right col-md-6 col-12"><img className="img-fluid" src="bears3.gif" style={{margin: "auto"}} />
                           </div>
