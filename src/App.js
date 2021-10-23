@@ -155,7 +155,7 @@ const App = () => {
       console.log("Connected to chain " + chainId);
     
       const rinkebyChainId = "0xA4B1"; //"0x66eeb" => arbitrum test net
-      if (chainId !== rinkebyChainId) {
+      if (chainId.toLowerCase() !== rinkebyChainId.toLowerCase()) {
         alert("You are not connected to the Arbitrum Network!");
       }
     } catch (error) {
