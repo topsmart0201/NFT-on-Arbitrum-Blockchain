@@ -1623,7 +1623,7 @@ contract CryptoRicks is Ownable, ERC721Enumerable, ERC721Burnable, ReentrancyGua
 
     bool public isMarketPlaceOn = true;
 
-    mapping (uint256 => uint256) public listings; // id to price
+    mapping (uint256 => uint256) public listings; // 
 
     //Base token URI
     string public base = "<url>/";
